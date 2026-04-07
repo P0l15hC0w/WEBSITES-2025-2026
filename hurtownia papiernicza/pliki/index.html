@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtownia papiernicza</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header>
+        <h1>W naszej hurtowni kupisz najtaniej</h1>
+    </header>
+
+    <div id="lewy">
+        <h3>Ceny wybranych artykułów w hurtowni:</h3>
+        <table>
+            <tr>
+                <td>Zeszyt 60 kartek</td>
+                <td class="cena">4.5 zł</td>
+            </tr>
+            <tr>
+                <td>Zeszyt 32 kartki</td>
+                <td class="cena">1.2 zł</td>
+            </tr>
+            <tr>
+                <td>Cyrkiel</td>
+                <td class="cena">12.4 zł</td>
+            </tr>
+            <tr>
+                <td>Linijka 30 cm</td>
+                <td class="cena">7.2 zł</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="srodek">
+        <h3>Ile będą kosztować Twoje zakupy?</h3>
+        <form action="index.html" method="post">
+            wybierz artykuł
+            <select name="artykul" id="artykul">
+                <option value="Zeszyt 60 kartek">Zeszyt 60 kartek</option>
+                <option value="Zeszyt 32 kartki">Zeszyt 32 kartki</option>
+                <option value="Cyrkiel">Cyrkiel</option>
+                <option value="Linijka 30 cm">Linijka 30 cm</option>
+                <option value="Ekierka">Ekierka</option>
+                <option value="Linijka 50 cm">Linijka 50 cm</option>
+            </select>
+            <br>
+            liczba sztuk: <input type="number" name="liczba" id="liczba" value="1"><br>
+            <button type="submit">OBLICZ</button>
+        </form>
+    </div>
+    <div id="prawy">
+        <img src="zakupy.png" alt="hurtownia">
+        <h3>Kontakt</h3>
+        <p>telefon:<br>111222333<br>e-mail:<br><a href="mailto:hurt@wp.pl">hurt@wp.pl</a></p>
+    </div>
+
+    <footer>
+        <h4>Witrynę wykonał:</h4>
+    </footer>
+</body>
+
+</html>

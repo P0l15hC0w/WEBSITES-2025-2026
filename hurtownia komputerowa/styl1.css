@@ -1,0 +1,64 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+}
+
+
+#logo {
+    background-color: #FF9F79;
+    height: 270px;
+    width: 30%;
+}
+
+
+#logo img {
+    height: 270px;
+}
+
+
+#lista, #formularz {
+    background-color: #FF9F79;
+    color: green;
+    height: 270px;
+    width: 35%;
+    padding: 10px;
+}
+
+
+main {
+    background-color: #80CDAC;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #188256;
+    padding: 10px;
+    clear: both;
+}
+
+
+a:link {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid orange;
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    background-color: violet;
+}
+footer a {
+    display: inline-block;
+}
