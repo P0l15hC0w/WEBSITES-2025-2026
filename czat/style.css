@@ -1,0 +1,81 @@
+* {
+    font-family: 'Garamond';
+}
+
+header {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    float: left;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+    float: left;
+}
+
+#nawigacja{
+    background-color: Coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#rozmowa {
+    border: 1px solid Tomato;
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+
+#rozmowa > div {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+}
+
+#rozmowa > div.Jolka {
+    background-color: #EEE;
+}
+
+#rozmowa > div.Jolka img {
+    float: left;
+}
+
+#rozmowa > div.Krzysiek {
+    background-color: #CCC;
+    text-align: right;
+}
+
+#rozmowa > div.Krzysiek img {
+    float: right;
+}
+
+button {
+    background-color: Tomato;
+    border: 1px solid DarkRed;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 500px;
+}
