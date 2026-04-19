@@ -17,11 +17,20 @@
             </ul>
         </nav>
         <main>
-            <h1>Zapraszamy do udziału<br>w szkoleniach<br>z branży IT</h1>
+            <?php
+                $conn = mysqli_connect("localhost", "root", "", "firma");
+                
+                $q1 = mysqli_query($conn, "SELECT Data, Temat FROM szkolenia ORDER BY Data ASC");
+
+                while ($row = mysqli_fetch_row($q1)) {
+                    echo "<p>$row[0] $row[1]</p>";
+                }
+            ?>
         </main>
         <footer>
             <h2>Firma szkoleniowa, ul. Główna 1, 23-456 Warszawa</h2>
-            <p>Autor: pc1</p>
+            <p>Autor: Pc1</p>
         </footer>
     </body>
 </html>
+
