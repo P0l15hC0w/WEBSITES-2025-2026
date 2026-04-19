@@ -1,0 +1,42 @@
+* {
+    font-family: Georgia;
+}
+body {
+    margin:0px;
+}
+header, main{
+    display: flex;
+}
+header section {
+    color: white;
+    background-color: #3CB371;
+    height: 100px;
+    width: 40%;
+}
+header section:last-child {
+    width: 20%;
+}
+main section{
+    background-color: #FFDAB9;
+    width: 170px;
+    height: 90px;
+    margin: 5px;
+    border: solid 1px #3CB371;
+}
+main{
+    flex-wrap: wrap;
+}
+footer{
+    background-color: #3CB371;
+    color: white;
+}
+h6 {
+    text-align: right;
+}
+form {
+    margin:30px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
