@@ -7,7 +7,7 @@ aside {
     background-color: #C5CAE9;
     width: 40%;
     height: 600px;
-    overflow: auto;
+    overflow-y: auto;
     float: left;
 }
 
@@ -17,11 +17,11 @@ section {
     float: left;
 }
 
-section#gora {
+#gora {
     background-color: #9FA8DA;
 }
 
-section#dol {
+#dol {
     background-color: #7986CB;
 }
 
@@ -38,9 +38,11 @@ footer {
     border: 2px dotted #283593;
     border-radius: 30px;
 }
-
+.ikona {
+    height:auto;
+}
 img {
-    float: left;
+    float:left;
     padding: 20px;
     height: 250px;
 }
